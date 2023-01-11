@@ -22,3 +22,5 @@ use App\Http\Controllers\Cl_Controller;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Route::get('/clans', [Cl_Controller::class,'index']);
